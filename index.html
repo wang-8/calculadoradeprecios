@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Fórmulas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Calculadora de Fórmulas</h1>
+    <div>
+        <label for="brand">Selecciona una marca:</label>
+        <select id="brand">
+            <option value="marca1">Marca 1</option>
+            <option value="marca2">Marca 2</option>
+            <option value="marca3">Marca 3</option>
+        </select>
+    </div>
+    <div>
+        <label for="inputValue">Ingresa un número:</label>
+        <input type="number" id="inputValue">
+    </div>
+    <button onclick="calculate()">Calcular</button>
+    <h2>Resultado: <span id="result">-</span></h2>
+
+    <script src="script.js"></script>
+</body>
+</html>
