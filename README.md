@@ -23,8 +23,7 @@ El proyecto consta de los siguientes archivos:
    git clone <URL_DEL_REPOSITORIO>
 Navega al directorio del proyecto:
 
-bash
-Copiar código
+
 cd nombre-del-directorio
 Abre el archivo index.html en tu navegador. Puedes hacer esto haciendo doble clic en el archivo o arrastrándolo a una ventana del navegador.
 
