@@ -9,11 +9,11 @@ function calculate() {
     }
 
     switch (brand) {
-        case 'marca1':
-            result = inputValue * 1.21 * 2;
+        case 'General':
+            result = inputValue * 1.21 * 2 +500;
             break;
-        case 'marca2':
-            result = inputValue * 1.21 * 2;
+        case 'Fashion/bathbazar/':
+            result = inputValue * 1.26 * 2 +500;
             break;
         case 'marca3':
             result = inputValue * 1.21 * 2;
